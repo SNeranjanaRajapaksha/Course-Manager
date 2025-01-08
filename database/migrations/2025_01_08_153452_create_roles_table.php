@@ -9,6 +9,8 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+
+     //php artisan make:migration create_roles_table
     public function up(): void
     {
         Schema::create('roles', function (Blueprint $table) {
