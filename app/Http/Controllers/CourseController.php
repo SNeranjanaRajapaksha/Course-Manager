@@ -58,7 +58,7 @@ class CourseController extends Controller
         return redirect()->route('courses.index')->with('success', 'Course updated successfully!');
     }
 
-    // Delete a course
+    // Delete a course in the database
     public function destroy(Course $course)
     {
         $course->delete();
