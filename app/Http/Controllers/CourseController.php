@@ -45,7 +45,7 @@ class CourseController extends Controller
         return view('courses.edit', compact('course'));
     }
 
-    // Update a course
+    // Update a course in the database
     public function update(Request $request, Course $course)
     {
         $validated = $request->validate([
