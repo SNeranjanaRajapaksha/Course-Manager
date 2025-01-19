@@ -33,7 +33,7 @@ class CourseController extends Controller
         return redirect()->route('courses.index')->with('success', 'Course created successfully!');
     }
 
-    // Show a specific course
+    // Show a specific course in index
     public function show(Course $course)
     {
         return view('courses.show', compact('course'));
