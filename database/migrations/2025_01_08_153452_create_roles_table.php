@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations using migrate.
      */
 
      //php artisan make:migration create_roles_table
@@ -21,7 +21,7 @@ return new class extends Migration
     }
 
     /**
-     * Reverse the migrations using migraye.
+     * Reverse the migrations using migrate.
      */
     public function down(): void
     {
