@@ -29,3 +29,7 @@ return new class extends Migration
         Schema::dropIfExists('lessons');
     }
 };
+
+/**
+     *end of the migrated file.
+     */
